@@ -127,17 +127,17 @@ public class Test {
 
         // switch case
 
-        int day = input.nextInt();
-        switch (day) {
-            case 1:
-                System.out.println("Monday");
-                break; // new for you
-            case 2:
-                System.out.println("Tuesday");
-                break;
-            default:
-                System.out.println("Incorrect day");
-        }
+//        int day = input.nextInt();
+//        switch (day) {
+//            case 1:
+//                System.out.println("Monday");
+//                break; // new for you
+//            case 2:
+//                System.out.println("Tuesday");
+//                break;
+//            default:
+//                System.out.println("Incorrect day");
+//        }
 
 
         // Тернарный оператор
@@ -153,7 +153,17 @@ public class Test {
         // Я ввожу через консоль три целостных чисел a, b и c.
         // Выполните данную операцию: a3 + 2b2 – 3ab + c3
 
-
+        // 123 1 + 2 + 3 = 6
+        int n1 = 123;
+        // String
+        int firstNumber = n1 / 100; // 1
+        int secondNumber = (n1 / 10) % 10; // 2 12 % 10 = 2
+        int thirdNumber = n1 % 10; // 123 % 10 = 3
+        // 12 % 7 = 5
+        // 100 % 9 = 1
+        // 23 % 8 = 7
+        //  =
+        System.out.println(1234542 % 17);
 
 
 
