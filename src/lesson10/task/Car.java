@@ -18,7 +18,7 @@ public class Car extends Vehicle implements Drivable{
         // 100 5power = 25l
         switch ((int)getPower()) {
             case 2:
-                double res = (distance * 9l) / 100;
+                double res = (distance * 9) / 100;
                 System.out.println(res);
                 break;
         }
