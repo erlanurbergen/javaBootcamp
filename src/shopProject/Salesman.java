@@ -19,6 +19,8 @@ public class Salesman extends User{
         mobiles.add(new Mobile("Xiomi redmi", 65000));
     }
 
+
+
     static ArrayList<Laptop> getLaptops() {
         return laptops;
     }
